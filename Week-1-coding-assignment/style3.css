@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* the .navbar ul refers to the list  */
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(54, 51, 48);
+    padding: 0;
+    margin: 0;
+}
+/* the .navbar a referes to the link */
+.navbar a {
+    color: rgb(216, 162, 126);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-top: 40px;
+    padding-right: 10%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+img {
+    float: left;
+    width: 400px, 400px, 400px, 400px;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+h2 {
+    color: rgb(1, 184, 184);
+    margin: 10px;
+    padding: 10px;
+}
+
+table {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* i used this code to separate the table from the form */
+form {
+    margin-top: 100px;
+}
+/* this determines the main contents height */
+#container {
+    min-height: 75%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 75px;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+#footer {
+    position: relative;
+    height: 75px;
+    clear: both;
+    float: left;
+}

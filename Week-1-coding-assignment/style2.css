@@ -1,0 +1,93 @@
+/* this is the font for the website */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(54, 51, 48);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    color: rgb(216, 162, 126);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-top: 40px;
+    padding-right: 10%;
+}
+/* putting ul li is more specific and allows you to change exactly what you want instead of changing the whole list */
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+h2 {
+    color: rgb(1, 184, 184);
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    float: right;
+    color: black;
+    width: 500px;
+}
+
+img {
+    float: left;
+    width: 300px, 300px, 300px, 300px;
+    margin-right: 100px;
+}
+
+li {
+    color: blue;
+}
+/* this is a pseudo class */
+ul li:nth-child(even) {
+    color: aqua;
+}
+
+#container {
+    min-height: 75%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 75px;
+}
+
+#warp {
+    display: grid;
+    grid-template-rows: auto, auto;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+#footer {
+    position: relative;
+    height: 75px;
+    clear: both;
+    float: left;
+}
